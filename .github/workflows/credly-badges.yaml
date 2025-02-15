@@ -13,6 +13,6 @@ jobs:
       - name: Update
         uses: mikejoh/credly-badges@main
         with:
-          CREDLY_USERNAME: github@abrante.co.uk
+          CREDLY_USERNAME: david-abrante
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           COMMIT_MESSAGE: "Update Credly badges!"
